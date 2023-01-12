@@ -137,6 +137,13 @@ button{
     font-weight: bold;
     border-color: #3882F6;
 }
+a,a:visited{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#3882F6;
+}
 
 .portrait{
     border-radius: 10%;
