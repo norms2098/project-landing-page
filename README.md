@@ -16,3 +16,6 @@ Partially fixed the main content of the webpage which is the gallery of the team
 
 Progress Report: 01/12/2023 12:42PM
 Fixed the gallery of the marketing team which is the main content of the webpage. This will suffice for now. Will be adding more styles upon further study of the language.
+
+Progress Report: 01/12/2023 1:55PM
+Fixed the testimonies and call to acion part. Will be adding further styles in the coming days. Also added a simple footer.
