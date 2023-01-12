@@ -46,6 +46,9 @@
     padding: 0 50px 10px 10px;
     
 }
+.navbar-content button{
+    padding: 10px 25px;
+}
 
 .main-content{
     display:flex;
@@ -70,6 +73,7 @@
     display: flex;
     justify-content: center;
     gap:25px;
+    margin-bottom: 75px;
 }
 .main-gallery{
     display: flex;
@@ -78,6 +82,48 @@
     align-items: center;
 }
 
+.testimonies-page{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.testimonies-quote{
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+    margin: 90px 75px 50px 100px;
+    padding: 40px 20px 0 70px;
+
+}
+.quote-credit{
+    align-items: flex-end;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 70px;
+    text-align: right;
+    margin-bottom: 100px;
+}
+
+.signup-page{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.signup-main{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding: 50px 100px 50px 100px;
+    gap: 90px;
+}
+.signup-main button{
+    border-color: white; 
+    padding: 10px 25px;
+}
 h1{
     color:white;
     font-size: 48px;
@@ -88,7 +134,6 @@ button{
     border-radius: 10px;
     background-color: #3882F6;
     color:white;
-    padding: 10px 25px 10px 25px;
     font-weight: bold;
     border-color: #3882F6;
 }
@@ -97,4 +142,10 @@ button{
     border-radius: 10%;
     border-color: aqua;
     
+}
+.footer{
+    background-color: #1f2937;
+    padding: 40px;
+    text-align: center;
+    color: white;
 }
