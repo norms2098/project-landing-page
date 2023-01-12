@@ -8,8 +8,6 @@
     justify-content: space-between;
 }
 
-
-
 .navbar-links li{
     margin:24px
 }
@@ -52,6 +50,7 @@
 .main-content{
     display:flex;
     flex-direction: column;
+
 }
 
 .main-header{
@@ -62,22 +61,23 @@
     padding: 20px 0 15px 0;
 }
 
-.main-information{
-    display: flex;
-    justify-content: space-evenly
-}
-.main-information img{
-    width: 300px;
+.main-content img{
+    width: 250px;
+    border: 20px black;
 }
 
-.main-content figcaption{
-    text-align: center;
+.main-information{
+    display: flex;
+    justify-content: center;
+    gap:25px;
 }
-.main-content ul{
-    display:flex;
-    list-style-type: none;
-    justify-content: space-evenly;
+.main-gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 h1{
     color:white;
     font-size: 48px;
